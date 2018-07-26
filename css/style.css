@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-color: #000000;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid #fdf731;
+    padding: 0 20px;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    color: #fdf731;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.main-nav {
+    position: relative;
+    z-index: 100;
+    line-height: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    display: inline-block;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.major-links {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+.minor-links {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', 'Merriweather', sans-serif;
+    color: #ffffff;
+}
+
+.quote-background {
+    background-color: #c6c6c6;
+    height: 80px;
+    width: 100%;
+}
+
+.quote {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.cross-out {
+    text-decoration: line-through;
+    padding: 0 0.5%;
+}
+
+.under-line {
+    text-decoration: underline #fdf731;
+    padding: 0 0.5% 0 0;
+}
+
+.background-image {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/coworkers.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .85);
+    width: 35%;
+    height: 62%;
+    padding: 2%;
+    margin: 4% 0 4% 62%;
+}
+
+#home-aside h2 {
+    font-weight: bold;
+    font-family: 'Sans Source Pro', sans-serif;
+    font-size: 25px;
+    padding: 5%;
+    text-transform: capitalize;
+}
+
+#home-aside p {
+    font-weight: 500;
+    padding: 0 5%;
+    line-height: 130%;
+    font-size: 20px;
+    font-family: 'Sans Source Pro', sans-serif;
+}
+
+.create-button {
+    background-color: #fdf731;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 5%;
+    border-radius: 6px;
+    width: 90%;
+    box-shadow: 1px 2px #c2ce17;
+}
